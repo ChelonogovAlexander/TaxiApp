@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Chel.TaxiApp.Domain.Driver\Chel.TaxiApp.Domain.Driver.csproj" />
+    <ProjectReference Include="..\..\Domain\Chel.TaxiApp.Domain.Passenger\Chel.TaxiApp.Domain.Passenger.csproj" />
+    <ProjectReference Include="..\..\Domain\Chel.TaxiApp.Domain.Common\Chel.TaxiApp.Domain.Common.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

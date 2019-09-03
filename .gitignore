@@ -1,5 +1,5 @@
-*/bin/*
-*/obj/*
+**/bin/*
+**/obj/*
 *.suo
 *.pdb
 *.csproj.user
@@ -9,7 +9,7 @@
 *.orig
 *.DotSettings.user
 /packages/
-*/node_modules/
+**/node_modules/
 !packages/repositories.config
 .vs/
 _ReSharper.Caches/
