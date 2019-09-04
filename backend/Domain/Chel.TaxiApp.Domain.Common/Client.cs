@@ -8,6 +8,6 @@ namespace Chel.TaxiApp.Domain.Common
         /// <summary>
         /// Информация о человеке
         /// </summary>
-        public PersonInfo PersonInfo{get;set;}
+        public PersonInfo PersonInfo { get; set; }
     }
 }

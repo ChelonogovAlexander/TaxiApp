@@ -8,16 +8,16 @@ namespace Chel.TaxiApp.Domain.Common
         /// <summary>
         /// Координаты
         /// </summary>
-        public Coordinates Coordinates{get;set;}
+        public Coordinates Coordinates { get; set; }
 
         /// <summary>
         /// Название локации
         /// </summary>
-        public string Name{get;set;}
+        public string Name { get; set; }
 
         /// <summary>
         /// Комментарий
         /// </summary>
-        public string Comment{get;set;}
+        public string Comment { get; set; }
     }
 }

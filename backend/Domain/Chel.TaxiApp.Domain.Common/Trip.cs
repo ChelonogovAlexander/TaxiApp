@@ -8,11 +8,11 @@ namespace Chel.TaxiApp.Domain.Common
         /// <summary>
         /// Транспортное средство
         /// </summary>
-        public Vehicle Vehicle{get;set;}
+        public Vehicle Vehicle { get; set; }
 
         /// <summary>
         /// Информация о заказе
         /// </summary>
-        public Order Order{get;set;}
+        public Order Order { get; set; }
     }
 }

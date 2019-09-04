@@ -8,11 +8,11 @@ namespace Chel.TaxiApp.Domain.Common
         /// <summary>
         /// Марка машины
         /// </summary>
-        public VehicleMark Mark{get;set;}
+        public VehicleMark Mark { get; set; }
 
         /// <summary>
         /// Водитель
         /// </summary>
-        public Driver Driver{get;set;}
+        public Driver Driver { get; set; }
     }
 }

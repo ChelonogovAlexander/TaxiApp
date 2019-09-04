@@ -8,6 +8,6 @@ namespace Chel.TaxiApp.Domain.Common
         /// <summary>
         /// Название
         /// </summary>
-        public string Title{get;set;}
+        public string Title { get; set; }
     }
 }

@@ -9,21 +9,21 @@ namespace Chel.TaxiApp.Domain.Common
         /// <summary>
         /// Заказчик
         /// </summary>
-        public Client Client{get;set;}
+        public Client Client { get; set; }
 
         /// <summary>
         /// Стартовая позиция
         /// </summary>
-        public Location StartLocation{get;set;}
+        public Location StartLocation { get; set; }
 
         /// <summary>
         /// Конечная точка
         /// </summary>
-        public Location EndLocation{get;set;}
+        public Location EndLocation { get; set; }
 
         /// <summary>
         /// Промежуточные точки остановки
         /// </summary>
-        public List<Location> IntermediateLocations{get;set;}
+        public List<Location> IntermediateLocations { get; set; }
     }
 }
